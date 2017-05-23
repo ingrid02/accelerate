@@ -13,12 +13,51 @@
 
 @import url("../accelerate-theme/style.css");
 
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+}
 .home-page {
-    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    background: url("img/taxi-photo.jpg") repeat scroll left center / cover rgba(0, 0, 0, 0);
 }
 #masthead {
-    background: none repeat scroll 0 0 red;
+    background: none repeat scroll 0 0 #45ac9d;
 }
 .button {
     background: none repeat scroll 0 0 #45ac9d;
 }
+
+.homepage-featured-work  {
+list-style: none;
+}
+.individual-featured-work {
+float: left;
+margin: 0 10px 10px 0;
+}
+.featured-work h4 {
+  text-align:center;
+}
+/*Case Studies*/
+.case-study {
+  margin: 40px 0 0;
+}
+
+.case-study-sidebar {
+  float:left;
+  width:300px;
+  margin: 0 40px 0 0 ;
+clear:left;
+}
+
+.case-studies-images {
+  float:right;
+  width: 600px;
+  margin: 40px 20px 0 0;
+clear:right;
+}
+/*.case-studies-images img {
+  display:block;
+  border:1px solid #dddddd;
+}*/
