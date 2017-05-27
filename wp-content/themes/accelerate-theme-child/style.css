@@ -22,6 +22,17 @@ img {
 .home-page {
     background: url("img/taxi-photo.jpg") repeat scroll left center / cover rgba(0, 0, 0, 0);
 }
+
+/*#masthead nav ul li {
+	display:inline;
+  float:right;
+}*/
+
+#menu-top-nav li  {
+  display:inline;
+  padding: 10px;
+}
+
 #masthead {
     background: none repeat scroll 0 0 #45ac9d;
 }
