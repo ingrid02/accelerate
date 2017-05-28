@@ -68,7 +68,19 @@ clear:left;
   margin: 40px 20px 0 0;
 clear:right;
 }
-/*.case-studies-images img {
-  display:block;
-  border:1px solid #dddddd;
-}*/
+/*contact us page*/
+
+
+.nf-field-label label {
+  font-weight:normal;
+  font-size: 14px;
+}
+
+
+.field-wrap input[type="submit"],
+.field-wrap input[type="button"],
+.field-wrap button {
+  float: right;
+  background: none repeat scroll 0 0 #45ac9d;
+  color: white;
+}
