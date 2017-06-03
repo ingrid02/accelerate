@@ -50,6 +50,33 @@ margin: 0 10px 10px 0;
 .featured-work h4 {
   text-align:center;
 }
+
+/*Services Page*/
+
+#content h3 {
+  font-size: 25px;
+  color: white;
+  width: 40%;
+  text-align: center;
+  margin: auto;
+  line-height: 35px;
+  padding: 200px 0;
+}
+.our-services {
+  width: 60%;
+  margin: auto;
+}
+
+.our-services-header{
+  text-align:center;
+  }
+  .individual-services  {
+    float: right;
+    list-style-type:none;
+    
+  }
+
+
 /*Case Studies*/
 .case-study {
   margin: 40px 0 0;

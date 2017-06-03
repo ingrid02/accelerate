@@ -45,7 +45,7 @@
                 'singular_name' => __( 'Service' )
             ),
             'public' => true,
-            'has_archive' => true,
+            'has_archive' => false,
             'rewrite' => array( 'slug' => 'services' ),
         )
     );
