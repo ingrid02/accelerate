@@ -73,7 +73,7 @@ margin: 0 10px 10px 0;
   .individual-services  {
     float: right;
     list-style-type:none;
-    
+
   }
 
 
@@ -110,4 +110,31 @@ clear:right;
   float: right;
   background: none repeat scroll 0 0 #45ac9d;
   color: white;
+}
+
+/*404 page*/
+
+.the-404-page {
+  margin: 0 0 50px 0;
+  width:90%;
+}
+.the-404-page h2  {
+  color:#45ac9d;
+  font-size: 35px;
+}
+.the-404-page p  {
+  font-size: 20px;
+}
+.the-404-icon {
+  float: left;
+  width:25%;
+  margin: 20px 0 0 0;
+}
+.the-404-error-message  {
+  float:left;
+  width:75%;
+}
+span  {
+  color:#45ac9d;
+  font-weight:700;
 }
