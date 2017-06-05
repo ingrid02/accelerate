@@ -51,7 +51,7 @@ margin: 0 10px 10px 0;
   text-align:center;
 }
 
-/*Services Page*/
+/*About Page*/
 
 #content h3 {
   font-size: 25px;
@@ -73,7 +73,9 @@ margin: 0 10px 10px 0;
   .individual-services  {
     float: right;
     list-style-type:none;
-
+  }
+  .call-to-action {
+    text-align: center;
   }
 
 

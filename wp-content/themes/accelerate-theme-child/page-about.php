@@ -50,8 +50,8 @@ get_header(); ?>
 		</ul>
 	</div>
 	<div class="call-to-action">
-		<h3>Interested in working with us?</h3>
-		<a class="button" href="<?php echo contact_url(); ?>/contact-us">Contact Us</a>
+		<h3>Interested in working with us?    
+		<a class="button" href="<?php echo home_url(); ?>/contact-us">Contact Us</a></h3>
 	</div>
 </section>
 
