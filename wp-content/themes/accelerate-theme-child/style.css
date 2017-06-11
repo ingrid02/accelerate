@@ -114,6 +114,9 @@ clear:right;
   color: white;
 }
 
+.nf-form-title {
+  height: 10px;
+}
 /*404 page*/
 
 .the-404-page {
@@ -139,4 +142,26 @@ clear:right;
 span  {
   color:#45ac9d;
   font-weight:700;
+}
+
+/*twitter feed*/
+
+.twitter-sidebar  {
+  float:right;
+  width: 45%;
+  height:auto;
+  margin: 0 0 0 20px;
+}
+.widget-title {
+  font-size: 20px;
+  color: black;
+  margin-top: 36px;
+}
+.widget ul  {
+  margin: 24px 0 50px 10px;
+}
+
+.blog-post  {
+  width:45%;
+  float:left;
 }

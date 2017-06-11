@@ -54,10 +54,23 @@ get_header(); ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 				<h2><?php the_title(); ?></h2>
 		       <?php the_excerpt(); ?>
-		       <a class="read-more-link" href="<?php the_permalink(); ?>">Read More <span>&rsaquo;</span></a>
+		       <a class="read-more-link" href="<?php the_permalink(); ?>"><span>Read More &rsaquo;</span></a>
   <?php endwhile; ?>
+
 <?php wp_reset_query(); ?>
+		</div>
+		<!--add dynamic sidebar-->
+		<div class="twitter-sidebar">
+			<h4>Recent Tweets</h4>
+		<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+		<div id="secondary" class="widget-area" role="complementary">
+		<?php dynamic_sidebar( 'sidebar-2' ); ?>
+		</div>
+		<a class="follow-us-link" href="<?php the_permalink(); ?>"><span>Follow Us &rsaquo;</span></a>
+		<?php endif; ?>
 		</div>
 	</div>
 </section>
+
+
 <?php get_footer(); ?>
